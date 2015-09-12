@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A97CC0B519E681D1003002C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A97CC0B419E681D1003002C2 /* main.m */; };
+		A97CC0B819E681D1003002C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A97CC0B719E681D1003002C2 /* AppDelegate.m */; };
+		A97CC0BA19E681D1003002C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97CC0B919E681D1003002C2 /* Images.xcassets */; };
+		A97CC0BD19E681D1003002C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97CC0BB19E681D1003002C2 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A97CC0AF19E681D1003002C2 /* RTX看大图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RTX看大图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97CC0B319E681D1003002C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97CC0B419E681D1003002C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A97CC0B619E681D1003002C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A97CC0B719E681D1003002C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A97CC0B919E681D1003002C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A97CC0BC19E681D1003002C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A97CC0C719E681D2003002C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97CC0C819E681D2003002C2 /* ShowRTXFaceImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowRTXFaceImageTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A97CC0AC19E681D1003002C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A97CC0A619E681D1003002C2 = {
+			isa = PBXGroup;
+			children = (
+				A97CC0B119E681D1003002C2 /* ShowRTXFaceImage */,
+				A97CC0C519E681D2003002C2 /* ShowRTXFaceImageTests */,
+				A97CC0B019E681D1003002C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A97CC0B019E681D1003002C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97CC0AF19E681D1003002C2 /* RTX看大图.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A97CC0B119E681D1003002C2 /* ShowRTXFaceImage */ = {
+			isa = PBXGroup;
+			children = (
+				A97CC0B619E681D1003002C2 /* AppDelegate.h */,
+				A97CC0B719E681D1003002C2 /* AppDelegate.m */,
+				A97CC0B919E681D1003002C2 /* Images.xcassets */,
+				A97CC0BB19E681D1003002C2 /* MainMenu.xib */,
+				A97CC0B219E681D1003002C2 /* Supporting Files */,
+			);
+			path = ShowRTXFaceImage;
+			sourceTree = "<group>";
+		};
+		A97CC0B219E681D1003002C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A97CC0B319E681D1003002C2 /* Info.plist */,
+				A97CC0B419E681D1003002C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A97CC0C519E681D2003002C2 /* ShowRTXFaceImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				A97CC0C819E681D2003002C2 /* ShowRTXFaceImageTests.m */,
+				A97CC0C619E681D2003002C2 /* Supporting Files */,
+			);
+			path = ShowRTXFaceImageTests;
+			sourceTree = "<group>";
+		};
+		A97CC0C619E681D2003002C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A97CC0C719E681D2003002C2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A97CC0AE19E681D1003002C2 /* ShowRTXFaceImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97CC0CC19E681D2003002C2 /* Build configuration list for PBXNativeTarget "ShowRTXFaceImage" */;
+			buildPhases = (
+				A97CC0AB19E681D1003002C2 /* Sources */,
+				A97CC0AC19E681D1003002C2 /* Frameworks */,
+				A97CC0AD19E681D1003002C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowRTXFaceImage;
+			productName = ShowRTXFaceImage;
+			productReference = A97CC0AF19E681D1003002C2 /* RTX看大图.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A97CC0A719E681D1003002C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = maxfong;
+				TargetAttributes = {
+					A97CC0AE19E681D1003002C2 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A97CC0AA19E681D1003002C2 /* Build configuration list for PBXProject "ShowRTXFaceImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A97CC0A619E681D1003002C2;
+			productRefGroup = A97CC0B019E681D1003002C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A97CC0AE19E681D1003002C2 /* ShowRTXFaceImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A97CC0AD19E681D1003002C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97CC0BA19E681D1003002C2 /* Images.xcassets in Resources */,
+				A97CC0BD19E681D1003002C2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A97CC0AB19E681D1003002C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97CC0B819E681D1003002C2 /* AppDelegate.m in Sources */,
+				A97CC0B519E681D1003002C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A97CC0BB19E681D1003002C2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97CC0BC19E681D1003002C2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A97CC0CA19E681D2003002C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A97CC0CB19E681D2003002C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A97CC0CD19E681D2003002C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShowRTXFaceImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "RTX看大图";
+			};
+			name = Debug;
+		};
+		A97CC0CE19E681D2003002C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShowRTXFaceImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "RTX看大图";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A97CC0AA19E681D1003002C2 /* Build configuration list for PBXProject "ShowRTXFaceImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97CC0CA19E681D2003002C2 /* Debug */,
+				A97CC0CB19E681D2003002C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97CC0CC19E681D2003002C2 /* Build configuration list for PBXNativeTarget "ShowRTXFaceImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97CC0CD19E681D2003002C2 /* Debug */,
+				A97CC0CE19E681D2003002C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A97CC0A719E681D1003002C2 /* Project object */;
+}
